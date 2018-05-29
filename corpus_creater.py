@@ -46,8 +46,7 @@ def main() :
         needles = [u'text',u'long-clickable',u'text-hint',u'bounds',u'font-family',u'ancestors',u'resource-id']
         deep_search(needles, fo, found)
         f.close()
-        print found
-    
+            
         fname = splitext(file)[0] + '.txt'
         fi = open(join(join(mypath,'corpus_dir_1'), fname), 'w+')
         for word in found :
