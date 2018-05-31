@@ -14,15 +14,25 @@ def deep_search(needles, haystack, found) :
                         if needle == 'bounds' :
                             found.append(haystack[needle][2]-haystack[needle][0])
                             found.append(haystack[needle][3]-haystack[needle][1])
+                        elif needle == 'text' or needle == 'text-hint' :
+                        	words = haystack[needle].split(' ')
+                        	for word in words :
+					w = ''.join(e for e in word if e.isalnum())
+                        		found.append(w.lower())
                         elif needle == 'ancestors' :
                             for ancestor in haystack[needle] :
-                                found.append(ancestor)
+                            	if ancestor[0] == 'X' :
+                            		found.append(ancestor)
+                            	else :
+                            		words = ancestor.split('.')
+                            		for word in words :
+                            			found.append(word.lower())
                         elif needle == 'resource-id' :
                             m = re.search('(?<=:id/)\w+', haystack[needle])
                             if m is not None :
                             	words = m.group(0).split('_')
                             	for word in words :
-                                	found.append(word)
+                                	found.append(word.lower())
                         elif needle == 'long-clickable' and haystack[needle] == True :
                             found.append(needle) 
                         elif needle != 'long-clickable' and len(haystack[needle]) > 0 :
@@ -41,7 +51,7 @@ def main() :
     mypath = getcwd()
     files = [f for f in listdir(join(mypath,'json_dir_1')) if isfile(join(join(mypath,'json_dir_1'), f))]
     for fl in files :
-    	print fl
+    	#print fl
         with open(join(join(mypath,'json_dir_1'),fl),'r') as f:
             fo = json.load(f)
         found = list()
