@@ -8,4 +8,4 @@ Intially we have to keep all the json files in ```json_dir_1``` directory. Then 
 ```
 python corpus_creater.py
 ```
-You will have the corpus created in the ```corpus_dir_1``` directory.
+You will have the corpus created in the ```corpus_dir_1``` directory. Full corpus can be found [here](https://drive.google.com/open?id=1JivdzqxEiZciR7N6DxhR0rPfYKJgy2xq).
