@@ -13,4 +13,4 @@ Then run the following
 ```
 python language_transformations.py
 ```
-This will create three files, ```trial.bow, trial.tfidf, trial.lsi``` which will be used for classifying test cases. Change the ```top_directory``` in ```language_transformations.py``` file to the location where the corpus is saved.
+This will create three files, ```trial.mm, trial.tfidf, trial.index``` which will be used for classifying test cases. Change the ```top_directory``` in ```language_transformations.py``` file to the location where the corpus is saved.
