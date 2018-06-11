@@ -1,5 +1,5 @@
 {
- "activity_name": "hr.podlanica/hr.podlanica.slider",
+ "activity_name": "com.kakao.talk/com.kakao.talk.activity.authenticator.AuthenticatorActivity",
  "activity": {
   "root": {
    "scrollable-horizontal": false,
@@ -19,7 +19,7 @@
     0,
     0,
     1440,
-    2392
+    2560
    ],
    "visibility": "visible",
    "content-desc": [
@@ -29,7 +29,7 @@
     0,
     0,
     1440,
-    2392
+    2560
    ],
    "focused": false,
    "selected": false,
@@ -71,7 +71,7 @@
       {
        "resource-id": "android:id/action_mode_bar_stub",
        "adapter-view": false,
-       "pointer": "d1afdef",
+       "pointer": "e6e4305",
        "scrollable-horizontal": false,
        "ancestors": [
         "android.view.View",
@@ -110,511 +110,50 @@
       {
        "resource-id": "android:id/content",
        "adapter-view": false,
-       "pointer": "3b720fc",
+       "pointer": "83c3f5a",
        "children": [
         {
-         "resource-id": "hr.podlanica:id/linearLayout",
-         "adapter-view": false,
-         "pointer": "fee0385",
+         "scrollable-horizontal": false,
+         "draw": true,
+         "ancestors": [
+          "android.view.ViewGroup",
+          "android.view.View",
+          "java.lang.Object"
+         ],
+         "clickable": false,
+         "pressed": "not_pressed",
+         "focusable": false,
+         "long-clickable": false,
+         "enabled": true,
+         "bounds": [
+          0,
+          84,
+          1440,
+          1499
+         ],
+         "visibility": "visible",
+         "content-desc": [
+          null
+         ],
+         "rel-bounds": [
+          0,
+          0,
+          1440,
+          1415
+         ],
+         "focused": false,
+         "selected": false,
+         "scrollable-vertical": false,
          "children": [
           {
-           "resource-id": "hr.podlanica:id/prozni",
+           "resource-id": "com.kakao.talk:id/content",
            "adapter-view": false,
-           "pointer": "b4835da",
-           "children": [
-            {
-             "resource-id": "hr.podlanica:id/graphics_holder",
-             "adapter-view": false,
-             "pointer": "ec38a0b",
-             "children": [
-              {
-               "scrollable-horizontal": false,
-               "draw": true,
-               "ancestors": [
-                "android.view.ViewGroup",
-                "android.view.View",
-                "java.lang.Object"
-               ],
-               "clickable": false,
-               "pressed": "not_pressed",
-               "focusable": false,
-               "long-clickable": false,
-               "enabled": true,
-               "bounds": [
-                656,
-                554,
-                796,
-                607
-               ],
-               "visibility": "visible",
-               "content-desc": [
-                null
-               ],
-               "rel-bounds": [
-                403,
-                28,
-                543,
-                81
-               ],
-               "focused": false,
-               "selected": false,
-               "scrollable-vertical": false,
-               "children": [
-                {
-                 "text": "15/15",
-                 "resource-id": "hr.podlanica:id/label1",
-                 "adapter-view": false,
-                 "pointer": "4105301",
-                 "scrollable-horizontal": false,
-                 "ancestors": [
-                  "android.view.View",
-                  "java.lang.Object"
-                 ],
-                 "selected": false,
-                 "content-desc": [
-                  null
-                 ],
-                 "rel-bounds": [
-                  0,
-                  0,
-                  140,
-                  53
-                 ],
-                 "draw": false,
-                 "focusable": false,
-                 "long-clickable": false,
-                 "visibility": "visible",
-                 "focused": false,
-                 "clickable": false,
-                 "abs-pos": true,
-                 "class": "android.widget.TextView",
-                 "visible-to-user": true,
-                 "package": "hr.podlanica",
-                 "enabled": true,
-                 "bounds": [
-                  656,
-                  554,
-                  796,
-                  607
-                 ],
-                 "pressed": "not_pressed",
-                 "scrollable-vertical": false
-                }
-               ],
-               "adapter-view": false,
-               "abs-pos": true,
-               "pointer": "cd350e8",
-               "class": "android.widget.LinearLayout",
-               "visible-to-user": true
-              },
-              {
-               "scrollable-horizontal": false,
-               "draw": false,
-               "ancestors": [
-                "android.view.View",
-                "java.lang.Object"
-               ],
-               "clickable": false,
-               "pressed": "not_pressed",
-               "focusable": false,
-               "long-clickable": false,
-               "enabled": true,
-               "bounds": [
-                253,
-                526,
-                1186,
-                1739
-               ],
-               "visibility": "visible",
-               "content-desc": [
-                null
-               ],
-               "rel-bounds": [
-                0,
-                0,
-                933,
-                1213
-               ],
-               "focused": false,
-               "selected": false,
-               "scrollable-vertical": false,
-               "adapter-view": false,
-               "abs-pos": true,
-               "pointer": "803d5a6",
-               "class": "hr.podlanica.br",
-               "visible-to-user": true
-              }
-             ],
-             "scrollable-horizontal": false,
-             "ancestors": [
-              "android.view.ViewGroup",
-              "android.view.View",
-              "java.lang.Object"
-             ],
-             "selected": false,
-             "content-desc": [
-              null
-             ],
-             "rel-bounds": [
-              0,
-              0,
-              933,
-              1213
-             ],
-             "draw": true,
-             "focusable": false,
-             "long-clickable": false,
-             "visibility": "visible",
-             "focused": false,
-             "clickable": true,
-             "abs-pos": true,
-             "class": "android.widget.FrameLayout",
-             "visible-to-user": true,
-             "package": "hr.podlanica",
-             "enabled": true,
-             "bounds": [
-              253,
-              526,
-              1186,
-              1739
-             ],
-             "pressed": "not_pressed",
-             "scrollable-vertical": false
-            },
-            {
-             "resource-id": "hr.podlanica:id/abc",
-             "adapter-view": false,
-             "pointer": "91ebbe7",
-             "children": [
-              {
-               "text": "",
-               "resource-id": "hr.podlanica:id/Full_btn",
-               "adapter-view": false,
-               "pointer": "b009394",
-               "scrollable-horizontal": false,
-               "ancestors": [
-                "android.widget.TextView",
-                "android.view.View",
-                "java.lang.Object"
-               ],
-               "selected": false,
-               "content-desc": [
-                null
-               ],
-               "rel-bounds": [
-                18,
-                4,
-                118,
-                104
-               ],
-               "draw": false,
-               "focusable": true,
-               "long-clickable": false,
-               "visibility": "visible",
-               "focused": false,
-               "clickable": true,
-               "abs-pos": true,
-               "class": "android.widget.Button",
-               "visible-to-user": true,
-               "package": "hr.podlanica",
-               "enabled": true,
-               "bounds": [
-                267,
-                537,
-                367,
-                633
-               ],
-               "pressed": "not_pressed",
-               "scrollable-vertical": false
-              },
-              {
-               "text": "",
-               "resource-id": "hr.podlanica:id/Close1",
-               "adapter-view": false,
-               "pointer": "4ae1e3d",
-               "scrollable-horizontal": false,
-               "ancestors": [
-                "android.widget.TextView",
-                "android.view.View",
-                "java.lang.Object"
-               ],
-               "selected": false,
-               "content-desc": [
-                null
-               ],
-               "rel-bounds": [
-                833,
-                0,
-                933,
-                100
-               ],
-               "draw": false,
-               "focusable": true,
-               "long-clickable": true,
-               "visibility": "visible",
-               "focused": false,
-               "clickable": true,
-               "abs-pos": true,
-               "class": "android.widget.Button",
-               "visible-to-user": true,
-               "package": "hr.podlanica",
-               "enabled": true,
-               "bounds": [
-                1082,
-                533,
-                1182,
-                633
-               ],
-               "pressed": "not_pressed",
-               "scrollable-vertical": false
-              }
-             ],
-             "scrollable-horizontal": false,
-             "ancestors": [
-              "android.view.ViewGroup",
-              "android.view.View",
-              "java.lang.Object"
-             ],
-             "selected": false,
-             "content-desc": [
-              null
-             ],
-             "rel-bounds": [
-              -4,
-              7,
-              929,
-              107
-             ],
-             "draw": true,
-             "focusable": false,
-             "long-clickable": false,
-             "visibility": "visible",
-             "focused": false,
-             "clickable": false,
-             "abs-pos": true,
-             "class": "android.widget.FrameLayout",
-             "visible-to-user": true,
-             "package": "hr.podlanica",
-             "enabled": true,
-             "bounds": [
-              253,
-              533,
-              1182,
-              633
-             ],
-             "pressed": "not_pressed",
-             "scrollable-vertical": false
-            },
-            {
-             "scrollable-horizontal": false,
-             "draw": true,
-             "ancestors": [
-              "android.view.ViewGroup",
-              "android.view.View",
-              "java.lang.Object"
-             ],
-             "clickable": false,
-             "pressed": "not_pressed",
-             "focusable": false,
-             "long-clickable": false,
-             "enabled": true,
-             "bounds": [
-              253,
-              1597,
-              826,
-              1739
-             ],
-             "visibility": "visible",
-             "content-desc": [
-              null
-             ],
-             "rel-bounds": [
-              0,
-              1071,
-              573,
-              1213
-             ],
-             "focused": false,
-             "selected": false,
-             "scrollable-vertical": false,
-             "children": [
-              {
-               "text": "",
-               "resource-id": "hr.podlanica:id/btn",
-               "adapter-view": false,
-               "pointer": "a112f83",
-               "scrollable-horizontal": false,
-               "ancestors": [
-                "android.widget.TextView",
-                "android.view.View",
-                "java.lang.Object"
-               ],
-               "selected": false,
-               "content-desc": [
-                null
-               ],
-               "rel-bounds": [
-                375,
-                0,
-                573,
-                131
-               ],
-               "draw": false,
-               "focusable": true,
-               "long-clickable": false,
-               "visibility": "visible",
-               "focused": false,
-               "clickable": true,
-               "abs-pos": true,
-               "class": "android.widget.Button",
-               "visible-to-user": true,
-               "package": "hr.podlanica",
-               "enabled": true,
-               "bounds": [
-                628,
-                1597,
-                826,
-                1728
-               ],
-               "pressed": "not_pressed",
-               "scrollable-vertical": false
-              }
-             ],
-             "adapter-view": false,
-             "abs-pos": true,
-             "pointer": "b87a632",
-             "class": "android.widget.LinearLayout",
-             "visible-to-user": true
-            },
-            {
-             "scrollable-horizontal": false,
-             "draw": true,
-             "ancestors": [
-              "android.view.ViewGroup",
-              "android.view.View",
-              "java.lang.Object"
-             ],
-             "clickable": false,
-             "pressed": "not_pressed",
-             "focusable": false,
-             "long-clickable": false,
-             "enabled": true,
-             "bounds": [
-              1072,
-              1625,
-              1172,
-              1725
-             ],
-             "visibility": "visible",
-             "content-desc": [
-              null
-             ],
-             "rel-bounds": [
-              819,
-              1099,
-              919,
-              1199
-             ],
-             "focused": false,
-             "selected": false,
-             "scrollable-vertical": false,
-             "children": [
-              {
-               "text": "",
-               "resource-id": "hr.podlanica:id/settings1",
-               "adapter-view": false,
-               "pointer": "2636139",
-               "scrollable-horizontal": false,
-               "ancestors": [
-                "android.widget.TextView",
-                "android.view.View",
-                "java.lang.Object"
-               ],
-               "selected": false,
-               "content-desc": [
-                null
-               ],
-               "rel-bounds": [
-                0,
-                0,
-                100,
-                100
-               ],
-               "draw": false,
-               "focusable": true,
-               "long-clickable": false,
-               "visibility": "visible",
-               "focused": false,
-               "clickable": true,
-               "abs-pos": true,
-               "class": "android.widget.Button",
-               "visible-to-user": true,
-               "package": "hr.podlanica",
-               "enabled": true,
-               "bounds": [
-                1072,
-                1625,
-                1172,
-                1725
-               ],
-               "pressed": "not_pressed",
-               "scrollable-vertical": false
-              }
-             ],
-             "adapter-view": false,
-             "abs-pos": true,
-             "pointer": "81d5500",
-             "class": "android.widget.FrameLayout",
-             "visible-to-user": true
-            }
-           ],
-           "scrollable-horizontal": false,
-           "ancestors": [
-            "android.view.ViewGroup",
-            "android.view.View",
-            "java.lang.Object"
-           ],
-           "selected": false,
-           "content-desc": [
-            null
-           ],
-           "rel-bounds": [
-            253,
-            442,
-            1186,
-            1655
-           ],
-           "draw": true,
-           "focusable": false,
-           "long-clickable": false,
-           "visibility": "visible",
-           "focused": false,
-           "clickable": true,
-           "abs-pos": true,
-           "class": "android.widget.FrameLayout",
-           "visible-to-user": true,
-           "package": "hr.podlanica",
-           "enabled": true,
-           "bounds": [
-            253,
-            526,
-            1186,
-            1739
-           ],
-           "pressed": "not_pressed",
-           "scrollable-vertical": false
-          },
-          {
-           "resource-id": "hr.podlanica:id/adView",
-           "adapter-view": false,
-           "pointer": "705f37e",
+           "pointer": "da23668",
            "children": [
             {
              "scrollable-horizontal": false,
-             "draw": true,
+             "draw": false,
              "ancestors": [
-              "android.widget.ViewSwitcher",
-              "android.widget.ViewAnimator",
               "android.widget.FrameLayout",
               "android.view.ViewGroup",
               "android.view.View",
@@ -622,14 +161,14 @@
              ],
              "clickable": false,
              "pressed": "not_pressed",
-             "focusable": false,
+             "focusable": true,
              "long-clickable": false,
              "enabled": true,
              "bounds": [
-              160,
-              1774,
-              1280,
-              1949
+              0,
+              84,
+              1440,
+              1499
              ],
              "visibility": "visible",
              "content-desc": [
@@ -638,8 +177,8 @@
              "rel-bounds": [
               0,
               0,
-              1120,
-              175
+              1440,
+              1415
              ],
              "focused": false,
              "selected": false,
@@ -649,7 +188,6 @@
                "scrollable-horizontal": false,
                "draw": true,
                "ancestors": [
-                "android.widget.FrameLayout",
                 "android.view.ViewGroup",
                 "android.view.View",
                 "java.lang.Object"
@@ -660,10 +198,10 @@
                "long-clickable": false,
                "enabled": true,
                "bounds": [
-                160,
-                1774,
-                1280,
-                1949
+                0,
+                84,
+                1440,
+                1499
                ],
                "visibility": "visible",
                "content-desc": [
@@ -672,71 +210,1384 @@
                "rel-bounds": [
                 0,
                 0,
-                1120,
-                175
+                1440,
+                1636
                ],
                "focused": false,
                "selected": false,
                "scrollable-vertical": false,
                "children": [
                 {
-                 "scrollable-horizontal": true,
-                 "draw": false,
+                 "resource-id": "com.kakao.talk:id/login_form_layout",
+                 "adapter-view": false,
+                 "pointer": "9963461",
+                 "children": [
+                  {
+                   "scrollable-horizontal": false,
+                   "draw": false,
+                   "ancestors": [
+                    "com.kakao.talk.widget.theme.ThemeTextView",
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "clickable": false,
+                   "pressed": "not_pressed",
+                   "text": "Already have a Kakao Account?",
+                   "focusable": false,
+                   "long-clickable": false,
+                   "enabled": true,
+                   "bounds": [
+                    70,
+                    217,
+                    1370,
+                    293
+                   ],
+                   "visibility": "visible",
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    70,
+                    133,
+                    1370,
+                    209
+                   ],
+                   "focused": false,
+                   "selected": false,
+                   "scrollable-vertical": false,
+                   "adapter-view": false,
+                   "abs-pos": true,
+                   "pointer": "cf00b86",
+                   "class": "com.kakao.talk.widget.JellyBeanSpanFixTextView",
+                   "visible-to-user": true
+                  },
+                  {
+                   "scrollable-horizontal": false,
+                   "draw": true,
+                   "ancestors": [
+                    "android.view.ViewGroup",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "clickable": false,
+                   "pressed": "not_pressed",
+                   "focusable": false,
+                   "long-clickable": false,
+                   "enabled": true,
+                   "bounds": [
+                    140,
+                    335,
+                    1300,
+                    854
+                   ],
+                   "visibility": "visible",
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    140,
+                    251,
+                    1300,
+                    770
+                   ],
+                   "focused": false,
+                   "selected": false,
+                   "scrollable-vertical": false,
+                   "children": [
+                    {
+                     "scrollable-horizontal": false,
+                     "draw": true,
+                     "ancestors": [
+                      "android.view.ViewGroup",
+                      "android.view.View",
+                      "java.lang.Object"
+                     ],
+                     "clickable": false,
+                     "pressed": "not_pressed",
+                     "focusable": false,
+                     "long-clickable": false,
+                     "enabled": true,
+                     "bounds": [
+                      140,
+                      335,
+                      1300,
+                      679
+                     ],
+                     "visibility": "visible",
+                     "content-desc": [
+                      null
+                     ],
+                     "rel-bounds": [
+                      0,
+                      0,
+                      1160,
+                      344
+                     ],
+                     "focused": false,
+                     "selected": false,
+                     "scrollable-vertical": false,
+                     "children": [
+                      {
+                       "resource-id": "com.kakao.talk:id/email",
+                       "adapter-view": false,
+                       "pointer": "5a0b59d",
+                       "children": [
+                        {
+                         "scrollable-horizontal": false,
+                         "draw": true,
+                         "ancestors": [
+                          "android.view.ViewGroup",
+                          "android.view.View",
+                          "java.lang.Object"
+                         ],
+                         "clickable": false,
+                         "pressed": "not_pressed",
+                         "focusable": false,
+                         "long-clickable": false,
+                         "enabled": true,
+                         "bounds": [
+                          177,
+                          378,
+                          1263,
+                          466
+                         ],
+                         "visibility": "visible",
+                         "content-desc": [
+                          null
+                         ],
+                         "rel-bounds": [
+                          35,
+                          38,
+                          1121,
+                          126
+                         ],
+                         "focused": false,
+                         "selected": false,
+                         "scrollable-vertical": false,
+                         "children": [
+                          {
+                           "text": "appcrawler4@gmail.com",
+                           "resource-id": "com.kakao.talk:id/text_edit",
+                           "adapter-view": false,
+                           "pointer": "76105e3",
+                           "scrollable-horizontal": false,
+                           "ancestors": [
+                            "com.kakao.talk.widget.ActionDoneEditText",
+                            "android.widget.EditText",
+                            "android.widget.TextView",
+                            "android.view.View",
+                            "java.lang.Object"
+                           ],
+                           "selected": false,
+                           "content-desc": [
+                            null
+                           ],
+                           "rel-bounds": [
+                            0,
+                            3,
+                            998,
+                            84
+                           ],
+                           "draw": false,
+                           "focusable": true,
+                           "long-clickable": true,
+                           "visibility": "visible",
+                           "text-hint": "Kakao Account (Email)",
+                           "focused": true,
+                           "clickable": true,
+                           "abs-pos": true,
+                           "class": "com.kakao.talk.widget.CustomEditText",
+                           "visible-to-user": true,
+                           "package": "com.kakao.talk",
+                           "enabled": true,
+                           "bounds": [
+                            177,
+                            381,
+                            1175,
+                            462
+                           ],
+                           "pressed": "not_pressed",
+                           "scrollable-vertical": false
+                          },
+                          {
+                           "resource-id": "com.kakao.talk:id/iv_clear",
+                           "adapter-view": false,
+                           "pointer": "4acdbe0",
+                           "scrollable-horizontal": false,
+                           "ancestors": [
+                            "android.widget.ImageView",
+                            "android.view.View",
+                            "java.lang.Object"
+                           ],
+                           "selected": false,
+                           "content-desc": [
+                            "Delete"
+                           ],
+                           "rel-bounds": [
+                            998,
+                            0,
+                            1086,
+                            88
+                           ],
+                           "draw": false,
+                           "focusable": true,
+                           "long-clickable": false,
+                           "visibility": "visible",
+                           "focused": false,
+                           "clickable": true,
+                           "abs-pos": true,
+                           "class": "android.widget.ImageButton",
+                           "visible-to-user": true,
+                           "package": "com.kakao.talk",
+                           "enabled": true,
+                           "bounds": [
+                            1175,
+                            378,
+                            1263,
+                            466
+                           ],
+                           "pressed": "not_pressed",
+                           "scrollable-vertical": false
+                          }
+                         ],
+                         "adapter-view": false,
+                         "abs-pos": true,
+                         "pointer": "1315a12",
+                         "class": "android.widget.LinearLayout",
+                         "visible-to-user": true
+                        }
+                       ],
+                       "scrollable-horizontal": false,
+                       "ancestors": [
+                        "com.kakao.talk.widget.theme.ThemeLinearLayout",
+                        "android.widget.LinearLayout",
+                        "android.view.ViewGroup",
+                        "android.view.View",
+                        "java.lang.Object"
+                       ],
+                       "selected": false,
+                       "content-desc": [
+                        null
+                       ],
+                       "rel-bounds": [
+                        2,
+                        5,
+                        1158,
+                        170
+                       ],
+                       "draw": true,
+                       "focusable": false,
+                       "long-clickable": false,
+                       "visibility": "visible",
+                       "focused": false,
+                       "clickable": false,
+                       "abs-pos": true,
+                       "class": "com.kakao.talk.widget.EditTextWithClearButtonWidget",
+                       "visible-to-user": true,
+                       "package": "com.kakao.talk",
+                       "enabled": true,
+                       "bounds": [
+                        142,
+                        340,
+                        1298,
+                        505
+                       ],
+                       "pressed": "not_pressed",
+                       "scrollable-vertical": false
+                      },
+                      {
+                       "scrollable-horizontal": false,
+                       "draw": false,
+                       "ancestors": [
+                        "java.lang.Object"
+                       ],
+                       "clickable": false,
+                       "pressed": "not_pressed",
+                       "focusable": false,
+                       "long-clickable": false,
+                       "enabled": true,
+                       "bounds": [
+                        142,
+                        505,
+                        1298,
+                        507
+                       ],
+                       "visibility": "visible",
+                       "content-desc": [
+                        null
+                       ],
+                       "rel-bounds": [
+                        2,
+                        170,
+                        1158,
+                        172
+                       ],
+                       "focused": false,
+                       "selected": false,
+                       "scrollable-vertical": false,
+                       "adapter-view": false,
+                       "abs-pos": true,
+                       "pointer": "7d80e99",
+                       "class": "android.view.View",
+                       "visible-to-user": true
+                      },
+                      {
+                       "resource-id": "com.kakao.talk:id/password",
+                       "adapter-view": false,
+                       "pointer": "ec7055e",
+                       "children": [
+                        {
+                         "scrollable-horizontal": false,
+                         "draw": true,
+                         "ancestors": [
+                          "android.view.ViewGroup",
+                          "android.view.View",
+                          "java.lang.Object"
+                         ],
+                         "clickable": false,
+                         "pressed": "not_pressed",
+                         "focusable": false,
+                         "long-clickable": false,
+                         "enabled": true,
+                         "bounds": [
+                          177,
+                          545,
+                          1263,
+                          633
+                         ],
+                         "visibility": "visible",
+                         "content-desc": [
+                          null
+                         ],
+                         "rel-bounds": [
+                          35,
+                          38,
+                          1121,
+                          126
+                         ],
+                         "focused": false,
+                         "selected": false,
+                         "scrollable-vertical": false,
+                         "children": [
+                          {
+                           "text": "",
+                           "resource-id": "com.kakao.talk:id/text_edit",
+                           "adapter-view": false,
+                           "pointer": "e33d60c",
+                           "scrollable-horizontal": false,
+                           "ancestors": [
+                            "com.kakao.talk.widget.ActionDoneEditText",
+                            "android.widget.EditText",
+                            "android.widget.TextView",
+                            "android.view.View",
+                            "java.lang.Object"
+                           ],
+                           "selected": false,
+                           "content-desc": [
+                            null
+                           ],
+                           "rel-bounds": [
+                            0,
+                            3,
+                            998,
+                            84
+                           ],
+                           "draw": false,
+                           "focusable": true,
+                           "long-clickable": true,
+                           "visibility": "visible",
+                           "text-hint": "Password",
+                           "focused": false,
+                           "clickable": true,
+                           "abs-pos": true,
+                           "class": "com.kakao.talk.widget.CustomEditText",
+                           "visible-to-user": true,
+                           "package": "com.kakao.talk",
+                           "enabled": true,
+                           "bounds": [
+                            177,
+                            548,
+                            1175,
+                            629
+                           ],
+                           "pressed": "not_pressed",
+                           "scrollable-vertical": false
+                          },
+                          {
+                           "resource-id": "com.kakao.talk:id/iv_clear",
+                           "adapter-view": false,
+                           "pointer": "91fb55",
+                           "scrollable-horizontal": false,
+                           "ancestors": [
+                            "android.widget.ImageView",
+                            "android.view.View",
+                            "java.lang.Object"
+                           ],
+                           "selected": false,
+                           "content-desc": [
+                            "Delete"
+                           ],
+                           "rel-bounds": [
+                            998,
+                            0,
+                            1086,
+                            88
+                           ],
+                           "draw": false,
+                           "focusable": true,
+                           "long-clickable": false,
+                           "visibility": "invisible",
+                           "focused": false,
+                           "clickable": true,
+                           "abs-pos": true,
+                           "class": "android.widget.ImageButton",
+                           "visible-to-user": false,
+                           "package": "com.kakao.talk",
+                           "enabled": true,
+                           "bounds": [
+                            1175,
+                            545,
+                            1263,
+                            633
+                           ],
+                           "pressed": "not_pressed",
+                           "scrollable-vertical": false
+                          }
+                         ],
+                         "adapter-view": false,
+                         "abs-pos": true,
+                         "pointer": "3141d3f",
+                         "class": "android.widget.LinearLayout",
+                         "visible-to-user": true
+                        }
+                       ],
+                       "scrollable-horizontal": false,
+                       "ancestors": [
+                        "com.kakao.talk.widget.theme.ThemeLinearLayout",
+                        "android.widget.LinearLayout",
+                        "android.view.ViewGroup",
+                        "android.view.View",
+                        "java.lang.Object"
+                       ],
+                       "selected": false,
+                       "content-desc": [
+                        null
+                       ],
+                       "rel-bounds": [
+                        2,
+                        172,
+                        1158,
+                        337
+                       ],
+                       "draw": true,
+                       "focusable": false,
+                       "long-clickable": false,
+                       "visibility": "visible",
+                       "focused": false,
+                       "clickable": false,
+                       "abs-pos": true,
+                       "class": "com.kakao.talk.widget.EditTextWithClearButtonWidget",
+                       "visible-to-user": true,
+                       "package": "com.kakao.talk",
+                       "enabled": true,
+                       "bounds": [
+                        142,
+                        507,
+                        1298,
+                        672
+                       ],
+                       "pressed": "not_pressed",
+                       "scrollable-vertical": false
+                      }
+                     ],
+                     "adapter-view": false,
+                     "abs-pos": true,
+                     "pointer": "b6c74",
+                     "class": "android.widget.LinearLayout",
+                     "visible-to-user": true
+                    },
+                    {
+                     "text": "Log In",
+                     "resource-id": "com.kakao.talk:id/login_for_kakao_account",
+                     "adapter-view": false,
+                     "pointer": "17a196a",
+                     "scrollable-horizontal": false,
+                     "ancestors": [
+                      "android.widget.TextView",
+                      "android.view.View",
+                      "java.lang.Object"
+                     ],
+                     "selected": false,
+                     "content-desc": [
+                      null
+                     ],
+                     "rel-bounds": [
+                      0,
+                      358,
+                      1160,
+                      519
+                     ],
+                     "draw": false,
+                     "focusable": true,
+                     "long-clickable": false,
+                     "visibility": "visible",
+                     "focused": false,
+                     "clickable": true,
+                     "abs-pos": true,
+                     "class": "android.widget.Button",
+                     "visible-to-user": true,
+                     "package": "com.kakao.talk",
+                     "enabled": false,
+                     "bounds": [
+                      140,
+                      693,
+                      1300,
+                      854
+                     ],
+                     "pressed": "not_pressed",
+                     "scrollable-vertical": false
+                    }
+                   ],
+                   "adapter-view": false,
+                   "abs-pos": true,
+                   "pointer": "55bec47",
+                   "class": "android.widget.LinearLayout",
+                   "visible-to-user": true
+                  },
+                  {
+                   "text": "Find my email or password.",
+                   "resource-id": "com.kakao.talk:id/find_account",
+                   "adapter-view": false,
+                   "pointer": "6b74e5b",
+                   "scrollable-horizontal": false,
+                   "ancestors": [
+                    "com.kakao.talk.widget.theme.ThemeTextView",
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "selected": false,
+                   "content-desc": [
+                    "Find my email or password.Link button"
+                   ],
+                   "rel-bounds": [
+                    70,
+                    882,
+                    1370,
+                    944
+                   ],
+                   "draw": false,
+                   "focusable": false,
+                   "long-clickable": false,
+                   "visibility": "visible",
+                   "focused": false,
+                   "clickable": true,
+                   "abs-pos": true,
+                   "class": "com.kakao.talk.widget.JellyBeanSpanFixTextView",
+                   "visible-to-user": true,
+                   "package": "com.kakao.talk",
+                   "enabled": true,
+                   "bounds": [
+                    70,
+                    966,
+                    1370,
+                    1028
+                   ],
+                   "pressed": "not_pressed",
+                   "scrollable-vertical": false
+                  },
+                  {
+                   "scrollable-horizontal": false,
+                   "draw": false,
+                   "ancestors": [
+                    "java.lang.Object"
+                   ],
+                   "clickable": false,
+                   "pressed": "not_pressed",
+                   "focusable": false,
+                   "long-clickable": false,
+                   "enabled": true,
+                   "bounds": [
+                    140,
+                    1161,
+                    1300,
+                    1162
+                   ],
+                   "visibility": "visible",
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    140,
+                    1077,
+                    1300,
+                    1078
+                   ],
+                   "focused": false,
+                   "selected": false,
+                   "scrollable-vertical": false,
+                   "adapter-view": false,
+                   "abs-pos": true,
+                   "pointer": "b4e46f8",
+                   "class": "android.view.View",
+                   "visible-to-user": true
+                  },
+                  {
+                   "scrollable-horizontal": false,
+                   "draw": false,
+                   "ancestors": [
+                    "com.kakao.talk.widget.theme.ThemeTextView",
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "clickable": true,
+                   "pressed": "not_pressed",
+                   "text": "NOTE: If you don't log in now, your previous data will not be restored.",
+                   "focusable": false,
+                   "long-clickable": false,
+                   "enabled": true,
+                   "bounds": [
+                    140,
+                    1288,
+                    1300,
+                    1404
+                   ],
+                   "visibility": "visible",
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    140,
+                    1204,
+                    1300,
+                    1320
+                   ],
+                   "focused": false,
+                   "selected": false,
+                   "scrollable-vertical": false,
+                   "adapter-view": false,
+                   "abs-pos": true,
+                   "pointer": "5c3f7d1",
+                   "class": "com.kakao.talk.widget.JellyBeanSpanFixTextView",
+                   "visible-to-user": true
+                  },
+                  {
+                   "text": "Sign Up",
+                   "resource-id": "com.kakao.talk:id/skip_login_for_kakao_account",
+                   "adapter-view": false,
+                   "pointer": "6986236",
+                   "scrollable-horizontal": false,
+                   "ancestors": [
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "selected": false,
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    140,
+                    1432,
+                    1300,
+                    1590
+                   ],
+                   "draw": false,
+                   "focusable": true,
+                   "long-clickable": false,
+                   "visibility": "visible",
+                   "focused": false,
+                   "clickable": true,
+                   "abs-pos": true,
+                   "class": "android.widget.Button",
+                   "visible-to-user": false,
+                   "package": "com.kakao.talk",
+                   "enabled": true,
+                   "bounds": [
+                    140,
+                    1516,
+                    1300,
+                    1499
+                   ],
+                   "pressed": "not_pressed",
+                   "scrollable-vertical": false
+                  }
+                 ],
+                 "scrollable-horizontal": false,
                  "ancestors": [
-                  "android.webkit.WebView",
-                  "android.widget.AbsoluteLayout",
                   "android.view.ViewGroup",
                   "android.view.View",
                   "java.lang.Object"
                  ],
-                 "clickable": true,
-                 "pressed": "not_pressed",
-                 "focusable": true,
-                 "long-clickable": false,
-                 "enabled": true,
-                 "bounds": [
-                  160,
-                  1774,
-                  1280,
-                  1949
-                 ],
-                 "visibility": "visible",
+                 "selected": false,
                  "content-desc": [
                   null
                  ],
                  "rel-bounds": [
                   0,
                   0,
-                  1120,
-                  175
+                  1440,
+                  1636
                  ],
-                 "focused": true,
-                 "selected": false,
-                 "scrollable-vertical": true,
-                 "adapter-view": false,
+                 "draw": true,
+                 "focusable": false,
+                 "long-clickable": false,
+                 "visibility": "visible",
+                 "focused": false,
+                 "clickable": false,
                  "abs-pos": true,
-                 "pointer": "18fd7f5",
-                 "class": "com.google.android.gms.ads.internal.webview.o",
-                 "visible-to-user": true
+                 "class": "android.widget.LinearLayout",
+                 "visible-to-user": true,
+                 "package": "com.kakao.talk",
+                 "enabled": true,
+                 "bounds": [
+                  0,
+                  84,
+                  1440,
+                  1499
+                 ],
+                 "pressed": "not_pressed",
+                 "scrollable-vertical": false
+                },
+                {
+                 "resource-id": "com.kakao.talk:id/old_phone_number_form_layout",
+                 "adapter-view": false,
+                 "pointer": "8927537",
+                 "children": [
+                  {
+                   "scrollable-horizontal": false,
+                   "draw": false,
+                   "ancestors": [
+                    "com.kakao.talk.widget.theme.ThemeTextView",
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "clickable": false,
+                   "pressed": "not_pressed",
+                   "text": "Enter the phone number that was previously used for KakaoTalk.",
+                   "focusable": false,
+                   "long-clickable": false,
+                   "enabled": true,
+                   "bounds": [
+                    0,
+                    84,
+                    0,
+                    84
+                   ],
+                   "visibility": "visible",
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ],
+                   "focused": false,
+                   "selected": false,
+                   "scrollable-vertical": false,
+                   "adapter-view": false,
+                   "abs-pos": true,
+                   "pointer": "59cdaa4",
+                   "class": "com.kakao.talk.widget.JellyBeanSpanFixTextView",
+                   "visible-to-user": false
+                  },
+                  {
+                   "resource-id": "com.kakao.talk:id/select_country",
+                   "adapter-view": false,
+                   "pointer": "d3f400d",
+                   "children": [
+                    {
+                     "text": "United States",
+                     "resource-id": "com.kakao.talk:id/country_name",
+                     "adapter-view": false,
+                     "pointer": "806bc2",
+                     "scrollable-horizontal": false,
+                     "ancestors": [
+                      "com.kakao.talk.widget.theme.ThemeTextView",
+                      "android.widget.TextView",
+                      "android.view.View",
+                      "java.lang.Object"
+                     ],
+                     "selected": false,
+                     "content-desc": [
+                      "Republic of Korea"
+                     ],
+                     "rel-bounds": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ],
+                     "draw": false,
+                     "focusable": true,
+                     "long-clickable": false,
+                     "visibility": "visible",
+                     "focused": false,
+                     "clickable": false,
+                     "abs-pos": true,
+                     "class": "com.kakao.talk.widget.JellyBeanSpanFixTextView",
+                     "visible-to-user": false,
+                     "package": "com.kakao.talk",
+                     "enabled": true,
+                     "bounds": [
+                      0,
+                      84,
+                      0,
+                      84
+                     ],
+                     "pressed": "not_pressed",
+                     "scrollable-vertical": false
+                    },
+                    {
+                     "resource-id": "com.kakao.talk:id/arrow_box",
+                     "adapter-view": false,
+                     "pointer": "18f2dd3",
+                     "children": [
+                      {
+                       "text": "+1",
+                       "resource-id": "com.kakao.talk:id/country_code",
+                       "adapter-view": false,
+                       "pointer": "e1efd10",
+                       "scrollable-horizontal": false,
+                       "ancestors": [
+                        "com.kakao.talk.widget.theme.ThemeTextView",
+                        "android.widget.TextView",
+                        "android.view.View",
+                        "java.lang.Object"
+                       ],
+                       "selected": false,
+                       "content-desc": [
+                        null
+                       ],
+                       "rel-bounds": [
+                        0,
+                        0,
+                        0,
+                        0
+                       ],
+                       "draw": false,
+                       "focusable": false,
+                       "long-clickable": false,
+                       "visibility": "visible",
+                       "focused": false,
+                       "clickable": false,
+                       "abs-pos": true,
+                       "class": "com.kakao.talk.widget.JellyBeanSpanFixTextView",
+                       "visible-to-user": false,
+                       "package": "com.kakao.talk",
+                       "enabled": true,
+                       "bounds": [
+                        0,
+                        84,
+                        0,
+                        84
+                       ],
+                       "pressed": "not_pressed",
+                       "scrollable-vertical": false
+                      },
+                      {
+                       "resource-id": "com.kakao.talk:id/arrow",
+                       "adapter-view": false,
+                       "pointer": "eacd009",
+                       "scrollable-horizontal": false,
+                       "ancestors": [
+                        "android.view.View",
+                        "java.lang.Object"
+                       ],
+                       "selected": false,
+                       "content-desc": [
+                        null
+                       ],
+                       "rel-bounds": [
+                        0,
+                        0,
+                        0,
+                        0
+                       ],
+                       "draw": false,
+                       "focusable": false,
+                       "long-clickable": false,
+                       "visibility": "visible",
+                       "focused": false,
+                       "clickable": false,
+                       "abs-pos": true,
+                       "class": "android.widget.ImageView",
+                       "visible-to-user": false,
+                       "package": "com.kakao.talk",
+                       "enabled": true,
+                       "bounds": [
+                        0,
+                        84,
+                        0,
+                        84
+                       ],
+                       "pressed": "not_pressed",
+                       "scrollable-vertical": false
+                      }
+                     ],
+                     "scrollable-horizontal": false,
+                     "ancestors": [
+                      "android.view.ViewGroup",
+                      "android.view.View",
+                      "java.lang.Object"
+                     ],
+                     "selected": false,
+                     "content-desc": [
+                      null
+                     ],
+                     "rel-bounds": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ],
+                     "draw": true,
+                     "focusable": true,
+                     "long-clickable": false,
+                     "visibility": "visible",
+                     "focused": false,
+                     "clickable": false,
+                     "abs-pos": true,
+                     "class": "android.widget.LinearLayout",
+                     "visible-to-user": false,
+                     "package": "com.kakao.talk",
+                     "enabled": true,
+                     "bounds": [
+                      0,
+                      84,
+                      0,
+                      84
+                     ],
+                     "pressed": "not_pressed",
+                     "scrollable-vertical": false
+                    }
+                   ],
+                   "scrollable-horizontal": false,
+                   "ancestors": [
+                    "android.view.ViewGroup",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "selected": false,
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ],
+                   "draw": true,
+                   "focusable": false,
+                   "long-clickable": false,
+                   "visibility": "visible",
+                   "focused": false,
+                   "clickable": true,
+                   "abs-pos": true,
+                   "class": "android.widget.RelativeLayout",
+                   "visible-to-user": false,
+                   "package": "com.kakao.talk",
+                   "enabled": true,
+                   "bounds": [
+                    0,
+                    84,
+                    0,
+                    84
+                   ],
+                   "pressed": "not_pressed",
+                   "scrollable-vertical": false
+                  },
+                  {
+                   "scrollable-horizontal": false,
+                   "draw": true,
+                   "ancestors": [
+                    "android.view.ViewGroup",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "clickable": false,
+                   "pressed": "not_pressed",
+                   "focusable": false,
+                   "long-clickable": false,
+                   "enabled": true,
+                   "bounds": [
+                    0,
+                    84,
+                    0,
+                    84
+                   ],
+                   "visibility": "visible",
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ],
+                   "focused": false,
+                   "selected": false,
+                   "scrollable-vertical": false,
+                   "children": [
+                    {
+                     "text": "OK",
+                     "resource-id": "com.kakao.talk:id/login_for_old_phone_number_form",
+                     "adapter-view": false,
+                     "pointer": "594d42f",
+                     "scrollable-horizontal": false,
+                     "ancestors": [
+                      "android.widget.TextView",
+                      "android.view.View",
+                      "java.lang.Object"
+                     ],
+                     "selected": false,
+                     "content-desc": [
+                      null
+                     ],
+                     "rel-bounds": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ],
+                     "draw": false,
+                     "focusable": true,
+                     "long-clickable": false,
+                     "visibility": "visible",
+                     "focused": false,
+                     "clickable": true,
+                     "abs-pos": true,
+                     "class": "android.widget.Button",
+                     "visible-to-user": false,
+                     "package": "com.kakao.talk",
+                     "enabled": false,
+                     "bounds": [
+                      0,
+                      84,
+                      0,
+                      84
+                     ],
+                     "pressed": "not_pressed",
+                     "scrollable-vertical": false
+                    },
+                    {
+                     "resource-id": "com.kakao.talk:id/phone_number",
+                     "adapter-view": false,
+                     "pointer": "45eda3c",
+                     "children": [
+                      {
+                       "scrollable-horizontal": false,
+                       "draw": true,
+                       "ancestors": [
+                        "android.view.ViewGroup",
+                        "android.view.View",
+                        "java.lang.Object"
+                       ],
+                       "clickable": false,
+                       "pressed": "not_pressed",
+                       "focusable": false,
+                       "long-clickable": false,
+                       "enabled": true,
+                       "bounds": [
+                        0,
+                        84,
+                        0,
+                        84
+                       ],
+                       "visibility": "visible",
+                       "content-desc": [
+                        null
+                       ],
+                       "rel-bounds": [
+                        0,
+                        0,
+                        0,
+                        0
+                       ],
+                       "focused": false,
+                       "selected": false,
+                       "scrollable-vertical": false,
+                       "children": [
+                        {
+                         "text": "",
+                         "resource-id": "com.kakao.talk:id/text_edit",
+                         "adapter-view": false,
+                         "pointer": "3b11a",
+                         "scrollable-horizontal": false,
+                         "ancestors": [
+                          "com.kakao.talk.widget.ActionDoneEditText",
+                          "android.widget.EditText",
+                          "android.widget.TextView",
+                          "android.view.View",
+                          "java.lang.Object"
+                         ],
+                         "selected": false,
+                         "content-desc": [
+                          null
+                         ],
+                         "rel-bounds": [
+                          0,
+                          0,
+                          0,
+                          0
+                         ],
+                         "draw": false,
+                         "focusable": true,
+                         "long-clickable": true,
+                         "visibility": "visible",
+                         "focused": false,
+                         "clickable": true,
+                         "abs-pos": true,
+                         "class": "com.kakao.talk.widget.CustomEditText",
+                         "visible-to-user": false,
+                         "package": "com.kakao.talk",
+                         "enabled": true,
+                         "bounds": [
+                          0,
+                          84,
+                          0,
+                          84
+                         ],
+                         "pressed": "not_pressed",
+                         "scrollable-vertical": false
+                        },
+                        {
+                         "resource-id": "com.kakao.talk:id/iv_clear",
+                         "adapter-view": false,
+                         "pointer": "5a4844b",
+                         "scrollable-horizontal": false,
+                         "ancestors": [
+                          "android.widget.ImageView",
+                          "android.view.View",
+                          "java.lang.Object"
+                         ],
+                         "selected": false,
+                         "content-desc": [
+                          "Delete"
+                         ],
+                         "rel-bounds": [
+                          0,
+                          0,
+                          0,
+                          0
+                         ],
+                         "draw": false,
+                         "focusable": true,
+                         "long-clickable": false,
+                         "visibility": "invisible",
+                         "focused": false,
+                         "clickable": true,
+                         "abs-pos": true,
+                         "class": "android.widget.ImageButton",
+                         "visible-to-user": false,
+                         "package": "com.kakao.talk",
+                         "enabled": true,
+                         "bounds": [
+                          0,
+                          84,
+                          0,
+                          84
+                         ],
+                         "pressed": "not_pressed",
+                         "scrollable-vertical": false
+                        }
+                       ],
+                       "adapter-view": false,
+                       "abs-pos": true,
+                       "pointer": "94963c5",
+                       "class": "android.widget.LinearLayout",
+                       "visible-to-user": false
+                      }
+                     ],
+                     "scrollable-horizontal": false,
+                     "ancestors": [
+                      "com.kakao.talk.widget.theme.ThemeLinearLayout",
+                      "android.widget.LinearLayout",
+                      "android.view.ViewGroup",
+                      "android.view.View",
+                      "java.lang.Object"
+                     ],
+                     "selected": false,
+                     "content-desc": [
+                      null
+                     ],
+                     "rel-bounds": [
+                      0,
+                      0,
+                      0,
+                      0
+                     ],
+                     "draw": true,
+                     "focusable": false,
+                     "long-clickable": false,
+                     "visibility": "visible",
+                     "focused": false,
+                     "clickable": false,
+                     "abs-pos": true,
+                     "class": "com.kakao.talk.widget.EditTextWithClearButtonWidget",
+                     "visible-to-user": false,
+                     "package": "com.kakao.talk",
+                     "enabled": true,
+                     "bounds": [
+                      0,
+                      84,
+                      0,
+                      84
+                     ],
+                     "pressed": "not_pressed",
+                     "scrollable-vertical": false
+                    }
+                   ],
+                   "adapter-view": false,
+                   "abs-pos": true,
+                   "pointer": "6ed820e",
+                   "class": "android.widget.RelativeLayout",
+                   "visible-to-user": false
+                  },
+                  {
+                   "text": "Why do you need a phone number?",
+                   "resource-id": "com.kakao.talk:id/display_reason_to_input_old_phone_number",
+                   "adapter-view": false,
+                   "pointer": "45d5e28",
+                   "scrollable-horizontal": false,
+                   "ancestors": [
+                    "com.kakao.talk.widget.theme.ThemeTextView",
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "selected": false,
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ],
+                   "draw": false,
+                   "focusable": false,
+                   "long-clickable": false,
+                   "visibility": "visible",
+                   "focused": false,
+                   "clickable": true,
+                   "abs-pos": true,
+                   "class": "com.kakao.talk.widget.JellyBeanSpanFixTextView",
+                   "visible-to-user": false,
+                   "package": "com.kakao.talk",
+                   "enabled": true,
+                   "bounds": [
+                    0,
+                    84,
+                    0,
+                    84
+                   ],
+                   "pressed": "not_pressed",
+                   "scrollable-vertical": false
+                  },
+                  {
+                   "text": "Skip Login",
+                   "resource-id": "com.kakao.talk:id/skip_login_for_old_phone_number_form",
+                   "adapter-view": false,
+                   "pointer": "9617741",
+                   "scrollable-horizontal": false,
+                   "ancestors": [
+                    "android.widget.TextView",
+                    "android.view.View",
+                    "java.lang.Object"
+                   ],
+                   "selected": false,
+                   "content-desc": [
+                    null
+                   ],
+                   "rel-bounds": [
+                    0,
+                    0,
+                    0,
+                    0
+                   ],
+                   "draw": false,
+                   "focusable": true,
+                   "long-clickable": false,
+                   "visibility": "visible",
+                   "focused": false,
+                   "clickable": true,
+                   "abs-pos": true,
+                   "class": "android.widget.Button",
+                   "visible-to-user": false,
+                   "package": "com.kakao.talk",
+                   "enabled": true,
+                   "bounds": [
+                    0,
+                    84,
+                    0,
+                    84
+                   ],
+                   "pressed": "not_pressed",
+                   "scrollable-vertical": false
+                  }
+                 ],
+                 "scrollable-horizontal": false,
+                 "ancestors": [
+                  "android.view.ViewGroup",
+                  "android.view.View",
+                  "java.lang.Object"
+                 ],
+                 "selected": false,
+                 "content-desc": [
+                  null
+                 ],
+                 "rel-bounds": [
+                  0,
+                  0,
+                  0,
+                  0
+                 ],
+                 "draw": true,
+                 "focusable": false,
+                 "long-clickable": false,
+                 "visibility": "gone",
+                 "focused": false,
+                 "clickable": false,
+                 "abs-pos": true,
+                 "class": "android.widget.LinearLayout",
+                 "visible-to-user": false,
+                 "package": "com.kakao.talk",
+                 "enabled": true,
+                 "bounds": [
+                  0,
+                  84,
+                  0,
+                  84
+                 ],
+                 "pressed": "not_pressed",
+                 "scrollable-vertical": false
                 }
                ],
                "adapter-view": false,
                "abs-pos": true,
-               "pointer": "b82c12c",
-               "class": "com.google.android.gms.ads.internal.webview.n",
+               "pointer": "ee85bc8",
+               "class": "android.widget.LinearLayout",
                "visible-to-user": true
               }
              ],
              "adapter-view": false,
              "abs-pos": true,
-             "pointer": "f2d40df",
-             "class": "com.google.android.gms.ads.internal.bp",
+             "pointer": "dec746b",
+             "class": "android.widget.ScrollView",
              "visible-to-user": true
             }
            ],
            "scrollable-horizontal": false,
            "ancestors": [
-            "com.google.android.gms.ads.BaseAdView",
             "android.view.ViewGroup",
             "android.view.View",
             "java.lang.Object"
@@ -746,10 +1597,10 @@
             null
            ],
            "rel-bounds": [
-            160,
-            1690,
-            1280,
-            1865
+            0,
+            0,
+            1440,
+            1415
            ],
            "draw": true,
            "focusable": false,
@@ -758,55 +1609,65 @@
            "focused": false,
            "clickable": false,
            "abs-pos": true,
-           "class": "com.google.android.gms.ads.AdView",
+           "class": "android.widget.FrameLayout",
            "visible-to-user": true,
-           "package": "hr.podlanica",
+           "package": "com.kakao.talk",
            "enabled": true,
            "bounds": [
-            160,
-            1774,
-            1280,
-            1949
+            0,
+            84,
+            1440,
+            1499
+           ],
+           "pressed": "not_pressed",
+           "scrollable-vertical": false
+          },
+          {
+           "text": "",
+           "resource-id": "com.kakao.talk:id/flavor",
+           "adapter-view": false,
+           "pointer": "a040998",
+           "scrollable-horizontal": false,
+           "ancestors": [
+            "android.view.View",
+            "java.lang.Object"
+           ],
+           "selected": false,
+           "content-desc": [
+            null
+           ],
+           "rel-bounds": [
+            0,
+            0,
+            0,
+            0
+           ],
+           "draw": false,
+           "focusable": false,
+           "long-clickable": false,
+           "visibility": "gone",
+           "focused": false,
+           "clickable": false,
+           "abs-pos": true,
+           "class": "android.widget.TextView",
+           "visible-to-user": false,
+           "package": "com.kakao.talk",
+           "enabled": true,
+           "bounds": [
+            0,
+            84,
+            0,
+            84
            ],
            "pressed": "not_pressed",
            "scrollable-vertical": false
           }
          ],
-         "scrollable-horizontal": false,
-         "ancestors": [
-          "android.view.ViewGroup",
-          "android.view.View",
-          "java.lang.Object"
-         ],
-         "selected": false,
-         "content-desc": [
-          null
-         ],
-         "rel-bounds": [
-          0,
-          0,
-          1440,
-          2308
-         ],
-         "draw": true,
-         "focusable": false,
-         "long-clickable": false,
-         "visibility": "visible",
-         "focused": false,
-         "clickable": false,
+         "adapter-view": false,
          "abs-pos": true,
-         "class": "android.widget.LinearLayout",
-         "visible-to-user": true,
-         "package": "hr.podlanica",
-         "enabled": true,
-         "bounds": [
-          0,
-          84,
-          1440,
-          2392
-         ],
-         "pressed": "not_pressed",
-         "scrollable-vertical": false
+         "pointer": "690958b",
+         "class": "android.widget.FrameLayout",
+         "visible-to-user": true
         }
        ],
        "scrollable-horizontal": false,
@@ -823,7 +1684,7 @@
         0,
         84,
         1440,
-        2392
+        1499
        ],
        "draw": true,
        "focusable": false,
@@ -840,7 +1701,7 @@
         0,
         84,
         1440,
-        2392
+        1499
        ],
        "pressed": "not_pressed",
        "scrollable-vertical": false
@@ -848,20 +1709,96 @@
      ],
      "adapter-view": false,
      "abs-pos": true,
-     "pointer": "2ef3ace",
+     "pointer": "a1aae7c",
      "class": "android.widget.LinearLayout",
      "visible-to-user": true
+    },
+    {
+     "resource-id": "android:id/navigationBarBackground",
+     "adapter-view": false,
+     "pointer": "23495f1",
+     "scrollable-horizontal": false,
+     "ancestors": [
+      "java.lang.Object"
+     ],
+     "selected": false,
+     "content-desc": [
+      null
+     ],
+     "rel-bounds": [
+      0,
+      2392,
+      1440,
+      2560
+     ],
+     "draw": false,
+     "focusable": false,
+     "long-clickable": false,
+     "visibility": "visible",
+     "focused": false,
+     "clickable": false,
+     "abs-pos": true,
+     "class": "android.view.View",
+     "visible-to-user": true,
+     "package": "android",
+     "enabled": true,
+     "bounds": [
+      0,
+      2392,
+      1440,
+      2560
+     ],
+     "pressed": "not_pressed",
+     "scrollable-vertical": false
+    },
+    {
+     "resource-id": "android:id/statusBarBackground",
+     "adapter-view": false,
+     "pointer": "f7975d6",
+     "scrollable-horizontal": false,
+     "ancestors": [
+      "java.lang.Object"
+     ],
+     "selected": false,
+     "content-desc": [
+      null
+     ],
+     "rel-bounds": [
+      0,
+      0,
+      1440,
+      84
+     ],
+     "draw": false,
+     "focusable": false,
+     "long-clickable": false,
+     "visibility": "visible",
+     "focused": false,
+     "clickable": false,
+     "abs-pos": true,
+     "class": "android.view.View",
+     "visible-to-user": true,
+     "package": "android",
+     "enabled": true,
+     "bounds": [
+      0,
+      0,
+      1440,
+      84
+     ],
+     "pressed": "not_pressed",
+     "scrollable-vertical": false
     }
    ],
    "adapter-view": false,
    "abs-pos": true,
-   "pointer": "2b2f3c9",
+   "pointer": "6c6516f",
    "class": "com.android.internal.policy.PhoneWindow$DecorView",
    "visible-to-user": true
   },
   "added_fragments": [],
   "active_fragments": []
  },
- "is_keyboard_deployed": false,
- "request_id": "448"
+ "is_keyboard_deployed": true,
+ "request_id": "398"
 }
