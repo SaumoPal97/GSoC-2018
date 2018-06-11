@@ -64,9 +64,9 @@ def deep_search(needles, haystack, found, previous_resource_id) :
 
 def main() :
     mypath = getcwd()
-    files = [f for f in listdir(join(mypath,'json_dir_1')) if isfile(join(join(mypath,'json_dir_1'), f))]
+    files = [f for f in listdir(join(mypath,'json_dir_1')) if isfile(join(mypath,'json_dir_1', f))]
     for fl in files :
-        with open(join(join(mypath,'json_dir_1'),fl),'r') as f:
+        with open(join(mypath,'json_dir_1',fl),'r') as f:
             fo = json.load(f)
         found = list()
         needles = [u'text',u'long-clickable',u'text-hint',u'bounds',u'font-family',u'ancestors',u'resource-id',u'class']
@@ -74,7 +74,7 @@ def main() :
         f.close()
     
         fname = splitext(fl)[0] + '.txt'
-        fi = open(join(join(mypath,'corpus_dir_1'), fname), 'w+')
+        fi = open(join(mypath,'corpus_dir_1', fname), 'w+')
         for word in found :
             if word != (' ') :
             	fi.write(repr(word).encode('utf-8'))
