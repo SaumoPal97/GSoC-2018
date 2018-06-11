@@ -13,7 +13,7 @@ label_dict['button'] = [u'button']
 
 def jsonify_data(top_directory):
     json_list = list()
-    for root, dirs, files in os.walk(top_directory):
+    for root, dirs, files in os.walk(os.path.join(top_directory,'corpus_dir_1')):
         for file in filter(lambda file: file.endswith('.txt'), files):
             with open(os.path.join(root, file)) as f:
                 document = f.readlines()
@@ -48,5 +48,5 @@ def jsonify_data(top_directory):
     for item in json_list:
         thefile.write("%s\n" % item)
         
-top_directory = '/home/saumo/Desktop/GSoC-2018/corpus_dir_1/'
+top_directory = os.getcwd()
 jsonify_data(top_directory)

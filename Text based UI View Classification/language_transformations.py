@@ -39,7 +39,7 @@ def transform_lsi(corpus_tfidf, dictionary, top_directory):
     index.save(os.path.join(top_directory,'transformations','trial.index'))
     return index
   
-top_directory = '/home/saumo/Desktop/GSoC-2018/'
+top_directory = os.getcwd()
 dictionary, texts = create_dictionary(top_directory)
 corpus_bow = transform_bow(texts, dictionary, top_directory)
 corpus_tfidf = transform_tfidf(corpus_bow, top_directory)
