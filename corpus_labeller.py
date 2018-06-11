@@ -22,9 +22,6 @@ def jsonify_data(top_directory):
             for line in document:
                 json_dict = {}
                 for key, value in label_dict.iteritems():
-                    #print key
-                    #print value
-                    #print line
                     if any(x in line for x in value):
                         if (key in ['email','text','number','password']):
                             if(u'edittext' in line):
