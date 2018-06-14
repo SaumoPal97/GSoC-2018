@@ -1,0 +1,2 @@
+{'type': 'image', 'feature': "u'welcome' u'tour' u'next' u'welcome' u'tour' u'next' 0 0 u'welcome' u'tour' u'next' u'android' u'view' u'view' u'java' u'lang' u'object' u'welcome' u'tour' u'next' u'android' u'widget' u'imageview'"}
+{'type': 'skip', 'feature': "u'skip' u'welcome' u'tour' u'skip' 0 0 u'sans-serif' u'android' u'view' u'view' u'java' u'lang' u'object' u'welcome' u'tour' u'skip' u'android' u'widget' u'textview'"}
