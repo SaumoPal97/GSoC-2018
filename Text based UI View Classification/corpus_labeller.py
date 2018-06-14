@@ -12,7 +12,8 @@ label_dict['image'] = [u'thumbnail',u'image',u'clip',u'imageview']
 label_dict['button'] = [u'button']
 
 def jsonify_data(top_directory):
-    json_list = list()
+    json_list_train = list()
+    json_list_test = list()
     for root, dirs, files in os.walk(os.path.join(top_directory,'corpus_dir_1')):
         for file in filter(lambda file: file.endswith('.txt'), files):
             with open(os.path.join(root, file)) as f:
@@ -27,26 +28,29 @@ def jsonify_data(top_directory):
                             if(u'edittext' in line):
                                 json_dict['feature'] = line
                                 json_dict['type'] = key
-                                json_list.append(json_dict)
+                                json_list_train.append(json_dict)
                                 break
                             else :
                                 json_dict['feature'] = line
                                 json_dict['type'] = 'button'
-                                json_list.append(json_dict)
+                                json_list_train.append(json_dict)
                                 break
                         else :
                             json_dict['feature'] = line
                             json_dict['type'] = key
-                            json_list.append(json_dict)
+                            json_list_train.append(json_dict)
                             break
                     else:
-                        json_dict['feature'] = line
-                        json_dict['type'] = 'test'
-                        json_list.append(json_dict)
-    json_list = [dict(t) for t in set([tuple(d.items()) for d in json_list])]
-    thefile = open('json_corpus.txt', 'w+')
-    for item in json_list:
-        thefile.write("%s\n" % item)
+                        json_list_test.append(line)
+    json_list_train = [dict(t) for t in set([tuple(d.items()) for d in json_list_train])]
+    trainfile = open('json_corpus_train.txt', 'w+')
+    for item in json_list_train:
+        trainfile.write("%s\n" % item)
+    testfile = open('json_corpus_test.txt', 'w+')
+    for item in json_list_test:
+        testfile.write("%s\n" % item)
+    trainfile.close()
+    testfile.close()
         
 top_directory = os.getcwd()
 jsonify_data(top_directory)
