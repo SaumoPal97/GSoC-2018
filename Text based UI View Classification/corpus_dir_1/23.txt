@@ -1,0 +1,3 @@
+'' u'button2' 0 0 u'button2' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'button2' u'android' u'widget' u'button' 
+'' u'button3' 0 0 u'button3' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'button3' u'android' u'widget' u'button' 
+u'ok' u'button1' 1256 168 u'button1' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'button1' u'android' u'widget' u'button' 

@@ -1,0 +1,5 @@
+u'holder' u'holder' 1440 2035 u'holder' u'android' u'webkit' u'webview' u'android' u'widget' u'absolutelayout' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'holder' u'explore' u'web' u'browser' u'customwebview' u'customwebview' 
+u'newtab' u'long-clickable' u'newtab' 105 105 u'newtab' u'android' u'view' u'view' u'java' u'lang' u'object' u'newtab' u'android' u'widget' u'imageview' 
+u'options' u'options' 0 0 u'options' u'android' u'view' u'view' u'java' u'lang' u'object' u'options' u'android' u'widget' u'imageview' 
+u'refreshlayout' u'refreshlayout' 154 168 u'refreshlayout' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'refreshlayout' u'android' u'widget' u'relativelayout' 
+u'httpwwwydrcomstorynews20161223crewsrespondfirejacksontownship95802188' u'long-clickable' u'enterurl' 1110 160 u'enterurl' u'android' u'widget' u'autocompletetextview' u'android' u'widget' u'edittext' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'enterurl' u'android' u'widget' u'multiautocompletetextview' 

@@ -1,0 +1,8 @@
+u'list1' u'list1' 1440 2112 u'list1' u'android' u'widget' u'abslistview' u'android' u'widget' u'adapterview' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'list1' u'android' u'widget' u'listview' 
+u'image' u'male' u'image' u'male' 322 322 u'image' u'male' u'android' u'widget' u'imageview' u'android' u'view' u'view' u'java' u'lang' u'object' u'image' u'male' u'android' u'support' u'v7' u'widget' u'appcompatimageview' 
+u'image' u'female' u'image' u'female' 322 322 u'image' u'female' u'android' u'widget' u'imageview' u'android' u'view' u'view' u'java' u'lang' u'object' u'image' u'female' u'android' u'support' u'v7' u'widget' u'appcompatimageview' 
+u'info' u'info' 161 161 u'info' u'android' u'widget' u'imageview' u'android' u'view' u'view' u'java' u'lang' u'object' u'info' u'android' u'support' u'v7' u'widget' u'appcompatimageview' 
+u'info' u'info' 161 161 u'info' u'android' u'widget' u'imageview' u'android' u'view' u'view' u'java' u'lang' u'object' u'info' u'android' u'support' u'v7' u'widget' u'appcompatimageview' 
+u'info' u'info' 161 161 u'info' u'android' u'widget' u'imageview' u'android' u'view' u'view' u'java' u'lang' u'object' u'info' u'android' u'support' u'v7' u'widget' u'appcompatimageview' 
+u'info' u'info' 161 161 u'info' u'android' u'widget' u'imageview' u'android' u'view' u'view' u'java' u'lang' u'object' u'info' u'android' u'support' u'v7' u'widget' u'appcompatimageview' 
+u'action' u'bar' u'action' u'bar' 196 196 u'action' u'bar' u'android' u'widget' u'imagebutton' u'android' u'widget' u'imageview' u'android' u'view' u'view' u'java' u'lang' u'object' u'action' u'bar' u'android' u'support' u'v7' u'widget' u'appcompatimagebutton' 

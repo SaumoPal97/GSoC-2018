@@ -1,0 +1,2 @@
+u'webviewcontainer' u'webviewcontainer' 1440 2392 u'webviewcontainer' u'android' u'webkit' u'webview' u'android' u'widget' u'absolutelayout' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'webviewcontainer' u'org' u'apache' u'cordova' u'engine' u'systemwebview' 
+u'ads' u'long-clickable' u'ads' 0 0 u'ads' u'android' u'webkit' u'webview' u'android' u'widget' u'absolutelayout' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'ads' u'com' u'google' u'android' u'gms' u'ads' u'internal' u'webview' u'o' 

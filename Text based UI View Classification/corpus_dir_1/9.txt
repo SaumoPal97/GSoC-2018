@@ -1,0 +1,2 @@
+u'share' u'button' u'share' 312 210 u'sans-serif-medium' u'android' u'widget' u'button' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'button' u'share' u'android' u'support' u'v7' u'widget' u'appcompatbutton' 
+u'close' u'button' u'ok' 304 210 u'sans-serif-medium' u'android' u'widget' u'button' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'button' u'ok' u'android' u'support' u'v7' u'widget' u'appcompatbutton' 

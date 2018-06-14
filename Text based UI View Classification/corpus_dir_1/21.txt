@@ -1,0 +1,4 @@
+u'profile' u'button' u'profile' u'button' 0 0 u'profile' u'button' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'profile' u'button' u'android' u'widget' u'linearlayout' 
+u'just' u'once' u'button' u'once' 344 168 u'sans-serif-medium' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'button' u'once' u'android' u'widget' u'button' 
+u'always' u'button' u'always' 273 168 u'sans-serif-medium' u'android' u'widget' u'textview' u'android' u'view' u'view' u'java' u'lang' u'object' u'button' u'always' u'android' u'widget' u'button' 
+u'resolver' u'list' u'long-clickable' u'resolver' u'list' 1440 588 u'resolver' u'list' u'android' u'widget' u'abslistview' u'android' u'widget' u'adapterview' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'resolver' u'list' u'android' u'widget' u'listview' 

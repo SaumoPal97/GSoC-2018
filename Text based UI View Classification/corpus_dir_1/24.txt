@@ -1,0 +1,2 @@
+u'content' u'content' 1440 2308 u'content' u'android' u'widget' u'absolutelayout' u'android' u'view' u'viewgroup' u'android' u'view' u'view' u'java' u'lang' u'object' u'content' u'android' u'webkit' u'webview' 
+u'content' u'content' 105 105 u'content' u'android' u'view' u'view' u'java' u'lang' u'object' u'content' u'android' u'widget' u'imageview' 
