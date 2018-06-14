@@ -1,8 +1,3 @@
-# GSoC-2018
-Will be implementing AI algorithms to improve Droidbot 
-
-My schedule and progress in GSoC'18 can be found [here](https://saumopal97.github.io/GSoC-Progress/).
-
 ## Documentation
 Intially we have to keep all the json files in ```json_dir_1``` directory. Then run the following from command prompt
 ```
