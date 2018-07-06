@@ -335,6 +335,32 @@ This will generate the following clusters of activities generated using the Affi
  - *Home:* Home
 ```
 From this list, we can find some prominent activity clusters which will be used to label the training data for the CNNs. The prominent activity clusters are -
- 1. Preferences
+ 1. SignUp/SignIn/Login/Register
+ 2. TermsOfUse/TermsOfService/TermsAndConditions
+ 3. Photo/Video/Camera/Gallery
+ 4. Ad
+ 5. Settings
+ 6. Preferences
+ 7. Search
+ 8. Browser
+ 9. List/Selection/Category/Chooser
+ 10. OnBoarding/Wizard/Tutorial
+ 11. Welcome/Landing/Intro
+ 12. Home/Main/MainTab/HomeScreen
+ 13. Tab/Menu
+ 14. Profile/UserProfile
+ 15. Password/PasswordChange/Authentication
+ 16. History
+ 17. Notifications
+ 18. Reader
+ 19. Community
+ 20. Navigation
+ 21. Time
+ 22. Weather
+ 23. Favourites
+Now the number of instances for each of them will be calculated using the following python script.
+```
+python activity_counter.py
+```
 
 
