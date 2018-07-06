@@ -335,6 +335,6 @@ This will generate the following clusters of activities generated using the Affi
  - *Home:* Home
 ```
 From this list, we can find some prominent activity clusters which will be used to label the training data for the CNNs. The prominent activity clusters are -
-1.
+ 1. Preferences
 
 
