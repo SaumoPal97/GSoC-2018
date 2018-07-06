@@ -358,6 +358,7 @@ From this list, we can find some prominent activity clusters which will be used 
  21. Time
  22. Weather
  23. Favourites
+
 Now the number of instances for each of them will be calculated using the following python script.
 ```
 python activity_counter.py
