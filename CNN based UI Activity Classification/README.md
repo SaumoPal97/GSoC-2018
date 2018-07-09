@@ -38,7 +38,7 @@ Now the number of instances for each of them will be calculated using the follow
 ```
 python activity_counter.py
 ```
-From here, we mainly go forward with three significant clusters for now, which the-
+From here, we mainly go forward with three significant clusters for now, which are as follows -
  1. Login
  2. Onboarding
  3. Settings
