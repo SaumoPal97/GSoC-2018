@@ -8,332 +8,7 @@ Then run the following
 ```
 python activity_cluster.py
 ```
-This will generate the following clusters of activities generated using the Affinity Propagation algorithm using the Levenshtein distance and 2% of the activities from the shuffled list.
-```
- - *Preferences:* CalcTapePreferences, Preferences, PreferencesMain
- - *MainTab:* AnalystTab, EditTask, MainFastF, MainMenu, MainNav, MainTab, SAManual, TabletTab
- - *ForgotPassword:* ForgotPassword
- - *Home:* Home, Howto
- - *BackCountry:* BackCountry
- - *Welcome:* Oblicuos, Welcome
- - *FBReader:* BibleReader, FBReader, NewsReaderHome, Reader
- - *SlidingMenu:* IFunnyMenu, SlidingMenu
- - *ScrollCalendarMain:* ScrollCalendarMain
- - *Browser:* Browser
- - *Browser:* Browser, BrowserApp, MediaBrowser
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *Master:* HafasApp, Markers, Master
- - *GoodsByCategory:* GoodsByCategory, RemediesCategory, VocabularyCategory
- - *Core:* AreaCode, Chord, Core, Course, InfoColorKey, More, t_url
- - *FindMusersOfContacts:* FindMusersOfContacts
- - *TopLevel:* TopLevel
- - *History:* Discovery, History, LoginHistoryUI, Mirror1280, NewsHistory, PinLock, PointsForm
- - *Onboarding:* CBOnboarding, MainOnboardingTou, OnBoarding, OnBoardingFirst, Onboard, Onboarding, OnboardingGroups, OnboardingStep1
- - *AdvSearchContainer:* AdvSearchContainer
- - *HomeScreen:* HomeScreen, InnerScreen, ScreenStream, StarterScreen
- - *Intro:* AppMainIntro, Index, Info, Init, Interview, Intro, InviteFriend, Item, PairIntro, QCIntro
- - *CollegeHockeyNews:* CollegeHockeyNews
- - *SearchCategories:* AllCategories, SearchCategories
- - *Home:* Home
- - *Home:* Boxed, Home
- - *PostInitReplication:* PostInitReplication
- - *SpinningEarth:* MissingData, SpinningEarth, UpcomingEvents
- - *BirthDayHelper:* BirthDayHelper
- - *FieldDefaultsActivty:* FieldDefaultsActivty
- - *train_schedule:* train_schedule
- - *Home:* Home, Hotels
- - *Browser:* Browser
- - *Home:* Games, Home
- - *QuotesShareLoveStickerFragment:* QuotesShareLoveStickerFragment
- - *Home:* Home
- - *Main:* ActMain, CMain, EqMainAdd, FMXNative, Glavna, IAEMain, Main, Main2, Main21, MainUI, Main_, Mainer, MenuSzablon, Mini, OlxMain, Pack, Pasion, PipMain, Quiz, Radio, VingleMain, _Main, _main
- - *InterstitialAd:* Interstitial, InterstitialAd
- - *PinnattaForMessenger:* PinnattaForMessenger
- - *Exercises:* Exercise_, Exercises
- - *ProxyAuthDialog:* ProxyAuthDialog, vPresetDialog
- - *Base:* Aarki, Balance, Base, Pack, PageXP, Pause, PlayCase
- - *WeatherWhiskersMain:* WeatherWhiskersMain
- - *Touts:* Coupons, Documents, Flirts, Groups, RouteStops, Sound, Tests, Text, Tinnitus, TourLite, Touts, Trips, smulk
- - *ScannerRadioTab:* ScannerRadioTab
- - *Chooser:* Chooser
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *PaidSewichiPanel:* PaidSewichiPanel
- - *Notifications:* Notification, NotificationOptions, Notifications
- - *Profile:* Article, Profile, ProfileCreate, ProfileEditor
- - *Resolver:* AmberAlert, BestSeller, MeshClient, Resolver
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *Login:* BrokerLogin, GenericLogin, LeoDict, Lilium, LogIn, LogReg, Login, LoginFacade_, Login_, PreLogin, Songify, UserLogin, _Login
- - *Navigation:* ForumNavigation, Navigation, Navigator, TalkingSpoony
- - *Category:* Categories, Category
- - *Master:* Master, Scanner
- - *Master:* Master, TicketMaster
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *BrowserPreferencesPage:* BrowserPreferencesPage
- - *Camera:* Camera, Chakra, ChargerMap, MemberMain, Parent
- - *Home:* Home
- - *Settings:* Settings, Starting_, SubjectInput
- - *GrantCredentialsWithAcl:* GrantCredentialsWithAcl
- - *Tutorial:* AppTutorial, EditHoliday, MiniTutorial, TruthOrDare, Tutorial, TutorialPages, TutorialSwipe
- - *ProductList:* EasyBlacklist, ProductList, ProductSwipe, Products, ProgramsList
- - *DealSearchResult:* DealSearchResult, HotelSearchResults, PodcastSearchResult, SearchResult
- - *ApplicationSettings:* ApplicationSettings, FloatingIconSettings
- - *Setting:* Series, Setting
- - *Master:* Master
- - *ExpensePaymentMethodList:* ExpensePaymentMethodList
- - *Chooser:* Chooser
- - *Capture:* Capture, CoachMarks, MediaCapture
- - *SeatSelectionScreen:* SeatSelectionScreen
- - *HCDFromCatalogSearchList:* HCDFromCatalogSearchList
- - *OnboardCredentials:* OnboardCredentials
- - *Wizard:* Final_, Primary, SetupWizard, Wizard
- - *Home:* Game, Home
- - *Settings:* Settings
- - *PathfinderOpenReference:* PathfinderOpenReference
- - *Meteo:* Atestamento, Feed, Meteo, Meter, Setup, UpdateLot
- - *ResultadosFutbolMain:* ResultadosFutbolMain
- - *Browser:* Browser
- - *Browser:* Browser, DroidWeb
- - *CircleOfFifths:* CircleOfFifths
- - *Master:* Master
- - *PasswordChange:* FaceMoodScanner, PasswordChange
- - *SplashScreen:* SplashScreen
- - *AdditionalInfo:* AdditionalInfo
- - *Setting:* SelectDevice, Setting
- - *SpotHome:* PhoneHome, SpotHome, TopNavHome, TripItHost, VSPasscode, VisitorHome
- - *AuthorizationClient:* AuthorizationClient
- - *Home:* Episodes, Home
- - *Home:* Home
- - *Master:* Mainer, Master
- - *Registration:* Meditation, RegisterAccount, RegisterDevice, Registration, RegistrationUI, Reservation
- - *Browser:* Browser
- - *MvelopesSlideMenu_:* MvelopesSlideMenu_
- - *LightWeightProxyAuth:* LightWeightProxyAuth
- - *UpgradeCalendar:* UpgradeCalendar, UpgradeStarterKit
- - *AppWall:* AppBrain, AppCoach, AppWall, HandWallet, InAppBilling
- - *UplynkPlayer:* MyMediaPlayer, UnityPlayer, UplynkPlayer
- - *ProductDetail:* ProductActions, ProductDetail, ProductDetails, ProgramDetail
- - *Home:* Home
- - *TermsandConditions:* TermsandConditions
- - *DefaultAirport:* DefaultAirport
- - *Chooser:* Chooser
- - *Time:* BabyTime, Filer, Guide, PTime, Time, Title, Triframe, Type
- - *Home:* Home
- - *GolfSignupProfileAct:* GolfSignupProfileAct
- - *Details:* DCFaqs, Detail, Details, DetailsFree, HotelDetails, QuizDetails, Retail
- - *DevicesList:* DevicesList, MessageList, RecipeList, ServiceHistoryList, TeachersList
- - *KSAFirstUserExperience:* KSAFirstUserExperience
- - *AudioList:* ArticleList, Audio47524, Audio50729, AudioList, ItemsList, QuizList, QuoteList
- - *Welcome:* Welcome
- - *PlayHistories_St2:* PlayHistories_St2
- - *Settings:* Settings
- - *NewMainInterface:* NewMainInterface
- - *Introduction:* Introduction
- - *ItemDetailsScreen:* ItemDetailsScreen
- - *NewsOnePageDetail:* NewsOnePageDetail
- - *RegStepOneLandingPage:* RegStepOneLandingPage
- - *Landing:* Landing, LoginLanding, Tracking
- - *CreateAccount:* CreateAccount, CreateEvent, CreateMealPlan, CreateScoutmark
- - *Home:* Home, HomeYSII
- - *FragmentHolder:* FilterHolder, FragmentHolder, FragmentHost, FragmentManager, FragmentShow, FragmentTV, FragmentWrapper, MainFragmentHolder
- - *ChangeSettings:* CacheSettings, ChangeSettings, LanguageSettings, SnoozeSettings
- - *SlideStack:* AlarmClock, SkillTrack, SlideStack, Slideshow
- - *ManageConnection:* ChooseCollection, CreateConversation, ManageConnection
- - *Dictionary:* Dictionary, DictionaryWords, Questionnaire
- - *TrackBrowser:* PlaylistBrowser, TrackBrowser
- - *MainPage:* AllImages, GuidePages, HangmanGame, Language, MainDingtone, MainLogin, MainMenu, MainPage, Message, MoonPhase, OptionsPage, mainindex
- - *NewTripDestinations:* NewTripDestinations
- - *RBCLChapter:* BookChapters, RBCLChapter, RadioZapper
- - *Authentication:* AudienceNetwork, Authentication, Authenticator, Authorization_, PaymentOptions
- - *SelectFavouritePlayer:* SelectFavouritePlayer
- - *Second:* Second, SingleSound
- - *BaseDrawer:* BaseDrawer, GSGameWrapper, HomeDrawerPhone, ImageRemake, MainDrawer, NewDrawer
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *ChooseLanguageAndExam:* ChooseLanguageAndExam
- - *AndroidLauncher:* AndroidLauncher
- - *HHMilestonesSummary:* HHMilestonesSummary
- - *Master:* Master
- - *MCWelcomeNewUser:* MCWelcomeNewUser
- - *activity_premium_yearly:* activity_premium_yearly
- - *Version:* DialerIcon, Immersive, Termin, VerInfo, VerseEdit, Version, VieraRemote
- - *CBImpression:* CBImpression, DailyExpressions
- - *Post:* Host, Lot, Post, first
- - *NewsDetail:* FoodDetail, HijabDetail, NewDetail, NewsDetail, NewsMain, RegionDetail, SpeciesDetails, WeatherDetail
- - *Home:* ComicHome, Home, HomeMenu
- - *Home:* Home, UserHome
- - *GoogleRssNews:* GoogleRssNews
- - *Browser:* Browser
- - *Home:* Home
- - *BreakiPhone4S:* BreakiPhone4S
- - *Community:* Community, CommunityV2
- - *Master:* Master
- - *State:* Create, Donate, GPSStatus, Shape, Start, Start1, StartGame_, Start_, State, Status, TeamStats
- - *Welcome:* KSAWelcome, WarmWelcome, Welcome
- - *Home:* Home
- - *Settings:* Settings
- - *Weather:* Featured, HealthTest, HelpOthers, Weather, WebFlow, WebviewAd
- - *Chooser:* Chooser
- - *TermsOfUse:* TermsOfUse
- - *Master:* Master
- - *Browser:* Browser, ShowTeam
- - *Chooser:* Chooser
- - *User:* Use, User
- - *Register:* JobFilters, LoginRegister, PageListSearch, Register, RegisterNumber
- - *LanPassTierBenefits_:* LanPassTierBenefits_
- - *Browser:* Browser
- - *Master:* MapFilter, Master
- - *AppList:* AppInvite, AppList, Artists, BookFlight, CouponsList, NewsList, TaskList
- - *MainNavigation:* CategoryNavigation, ChannelNavigator, MainNavigation, ZazzleSideNavigation
- - *BlackAndWhiteBedroomGal4:* BlackAndWhiteBedroomGal4
- - *Home:* Home
- - *MiningStocksAct:* MiningStocksAct
- - *SocialRegisterDialog:* SocialRegisterDialog
- - *AccountConfigure:* AccountConfigure, AccountSignup, NewStudentConfigure
- - *Home:* Home, HomeRd
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *SimpleApp:* DisplayRecipe, MobileNavApp, SimpleApp, SimpleLogin
- - *WelcomeEnrollmentWizard:* WelcomeEnrollmentWizard
- - *Settings:* Settings
- - *Master:* Master
- - *EffectiveWeightLossGuide:* EffectiveWeightLossGuide
- - *Home:* Home
- - *WHTMain:* ActMain, Bjs_Main, GOMusicMain, SubMain, WHTMain
- - *Home:* AHtml, Home
- - *Home:* Home
- - *TelemundoRoot:* TelemundoRoot
- - *Container:* ComicMaker, Container, Coordinates, CountryPicker
- - *Orders:* AddPlayers, AroundMePOIs, Dromoris, Hybrider, Offers, Orders, Prefs, Screen6
- - *WordGuessGame:* WordGuessGame
- - *BackupServiceRegister:* BackupServiceRegister
- - *Dashboard_000:* DashboardNewUi, Dashboard_000
- - *Settings$AppWriteSettings:* Settings$AppWriteSettings
- - *HomePage:* CropImage, FVRHomePage, ForceUpdate, HomeFrame, HomePage, LABsOfferPage
- - *Gallery:* Gallery, Wallpapers_
- - *Home:* Home
- - *ArticleDetail:* ActivitiesMain, ArticleDetail, ArticleDetails, ArticleReader, MagazineDetail, RoutineDetail
- - *VideoPlay:* LessonPlay, VideoGallery, VideoPlay, VideoPlayerNew
- - *Browser:* AlbumBrowser, Browser
- - *Chooser:* Chooser
- - *Master:* Master, Player
- - *Settings:* Settings
- - *Home:* Home
- - *Home:* Home
- - *Search:* AsyncSearch, CarSearch, Earth, Redirect, Schedule, Search, SearchHolder
- - *MonitorYourWeight:* MonitorYourWeight
- - *Splash:* Splash, SplashLogin, TerminalSplash
- - *ShowCoyoteBDCEXP:* ShowCoyoteBDCEXP
- - *AlarmSettings:* AlarmSetting, AlarmSettings, LocatorSettings
- - *Favorites:* FavoriteTeamList, Favorites, Favourites, FranklyVideo
- - *BubblesBrowsing:* BubblesBrowsing
- - *Home:* Home
- - *NavigationDrawer:* NavigationDrawer, NavigationDrawerMain, NavigationPage, NavigationSystem, UINavigationManager
- - *Settings:* Series, Settings
- - *IllusionsProBook:* IllusionsProBook
- - *RegionPicker:* GeoTracker, LocationPicker, NetworkPicker, PhotoPicker, RecipeTabPager, RegionPicker, RingtonePicker
- - *MainScreen:* InitialScreen, LandingScreen, MainScreen, MainSmartphone_, MktScreens, ThornScreen
- - *PublicAccountCard:* PublicAccountCard
- - *Master:* Master
- - *Home:* Help, Home, Hymn, Volume
- - *SleepTimerSettings:* SleepTimeSetup, SleepTimerSettings
- - *BuySellBitcoin:* BuySellBitcoin
- - *Chooser:* Chooser
- - *Home:* Home
- - *SuggestBoardList:* SuggestBoardList
- - *Equalizer:* Equalizer
- - *CurrencyConverter:* CurrencyConverter
- - *ToolsTrainTrack:* ToolsTrainTrack
- - *PhotoInfoMasterFragment:* PhotoInfoMasterFragment
- - *LandingScreenPhone:* LandingScreenPhone
- - *LoggedOutLanding:* LoggedOutLanding
- - *LoginSelection:* CategorySelection, ChannelSelection, ClockSelector, ContactSelection, LanguageSelection, LoginOptions, LoginSelection, VehicleSelected
- - *Lovely:* Live4D, LoseIt, Lovely
- - *FuelDrivingCostSave:* FuelDrivingCostSave
- - *FirstRun:* FirstRun, Hippeastrum2
- - *Master:* Master
- - *Chooser:* ChooseWhip, Chooser
- - *SignUp:* ActSignIn, DontalkSignUp, RingPDP, SignIn, SignUp, Signin, Signup
- - *Overlay:* Overlay, Overview
- - *OnboardCredentials:* OnboardCredentials
- - *Browser:* Browser
- - *Settings$DevelopmentSettings:* Settings$DevelopmentSettings
- - *SolutionTableSettings:* SolutionTableSettings
- - *Home:* Home
- - *Store:* FindStore, GetToken, Share, Store, StoreMenu, Story, Sworkit
- - *Demo:* DICo, Demo, Hello, ItemShop_, Menu, ThemeDemo
- - *Chooser:* Chooser
- - *FullScreen:* BatmobiFullScreenAd, FirstScreen, FullScreen, Fullscreen, FullscreenImage, GalleryFullScreen, PublicArea
- - *Dashboard:* AddDashboardType, DashBoard, Dashboard, Leaderboard
- - *Map:* App, GLMap, InrixMap, MAIN, MM, Map, Maps, Marca, UUB, a
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *About:* About, AboutSystem, Account, LMAuth, Mobiliti
- - *CityList:* CardList, ChatList, CityList, DiaryList, EntryGroupList, NailsList, WishList
- - *CreateOrChooseChat:* CreateOrChooseChat
- - *MainforChattingDUBBED:* MainforChattingDUBBED
- - *Master:* Master, PlusNumber
- - *TermsOfService:* TermsOfService
- - *MainController:* AboutController, MainController, MainTabContainer
- - *Browser:* Browser, CarPower
- - *StreamingFlightResultDetails:* StreamingFlightResultDetails
- - *Master:* Master
- - *Master:* Master
- - *EventDetail:* CasinoDetail, EssayDetail, EventDetail, EventsCitypage, FlightDetails, PaymentDetails
- - *SlackerApp:* SlackerApp
- - *AppInfoArticleList:* AppInfoArticleList
- - *Tab:* Faq, Read, TLTab, Tab, TabMy, TabsApp, Tags, Team, Web
- - *SettingSetBackGround:* SettingSetBackGround
- - *ContentGetBusinessIdeas:* ContentGetBusinessIdeas
- - *Master:* Master
- - *WeatherForecast:* WeatherForecast
- - *LocationCityFragment:* LocationCityFragment
- - *Setting:* Setting
- - *Settings:* Question10, Settings, SettingsV11
- - *Setting:* Setting
- - *Connect:* CarConnect, ColAndCom, Connect, ConnectRatePage, Content, Contingency, ShowComponent
- - *CALesson:* CALesson, NormalLesson
- - *Settings:* SettingPoint, Settings
- - *Setting:* Setting
- - *Submissions:* Permissions, Submissions
- - *EpisodeSearchResultDetail:* EpisodeSearchResultDetail
- - *Description:* Description, OfferDescription
- - *CollectionGallery:* CollectionGallery
- - *Home:* Home
- - *InstalledAppDetails:* InstalledAppDetails
- - *Home:* Glympse, Home
- - *Phrasebook:* Facebook, Phrasebook
- - *PreSignupAssessment:* PreSignupAssessment
- - *Home:* Home
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *MainFragment:* MainContentFragment, MainFEjercicios, MainFragment, SCPageFragment
- - *LookupWordScreen:* LookupWordScreen
- - *Master:* Master
- - *Home:* Home
- - *UserSetting:* GeneralSettings, IRCTCSeatMap, UserSetting
- - *NewUserSignUpIntroScreen:* NewUserSignUpIntroScreen
- - *MessagingPreference:* MessagingPreference
- - *Results:* BadResult, LoveQuotes, ResultPage, Results, ResultsAdd, Vegfulek
- - *Home:* Home
- - *FlightTripOverview:* FlightTripOverview
- - *Chooser:* Chooser
- - *SecurityAndPrivacy:* SecurityAndPrivacy
- - *News:* ExpNews, Helps, NewCarHub, NewUser, News, NewsTabbed, Now2, Nurse, Shows, Terms
- - *Location:* Location, LocationSelect, LocationSharing, Locator
- - *Home:* Home, MoPub
- - *UserProfile:* AddEditProfile, AmerenMobile, UserProfile
- - *OffenderRecentAndA2ZActuivity:* OffenderRecentAndA2ZActuivity
- - *MainTopRightDialog:* MainTopRightDialog
- - *WaterMarkTextEditor:* WaterMarkTextEditor
- - *ProxyAuthDialog:* ProxyAuthDialog
- - *Home:* Home
- - *Master:* Master
- - *EditorialVideo:* ESEditorialLanding, EditorialVideo
- - *Settings:* Settings
- - *Home:* Home
- - *Photo:* Chat, Chatroom, CropPhoto, Loto, NewPhoto, Photo, Promo
- - *Ad:* 4, Ad, Andy, Edit, FAQ, Find, H, HH, IM, My, NC, OTP, P, SRP, Sl, Ti, WH, WW, a, er, h, m, ܬ
- - *Master:* Master, MsgThread
- - *GraphingCalculatorProductTour_:* GraphingCalculatorProductTour_
- - *Home:* Home
-```
+This will generate clusters of activities generated using the Affinity Propagation algorithm using the Levenshtein distance and 2% of the activities from the shuffled list which can be found in the ```cluster_output.txt``` file.
 From this list, we can find some prominent activity clusters which will be used to label the training data for the CNNs. The prominent activity clusters are -
  1. SignUp/SignIn/Login/Register
  2. TermsOfUse/TermsOfService/TermsAndConditions
@@ -363,5 +38,137 @@ Now the number of instances for each of them will be calculated using the follow
 ```
 python activity_counter.py
 ```
+From here, we mainly go forward with three significant clusters for now, which the-
+ 1. Login
+ 2. Onboarding
+ 3. Settings
+ 
+After this we run the following
+```
+python create_dataset.py
+```
+It will create the following directory structure in screenshots directory
+```
+screenshots
++-- test
+|   +-- login
+|   +-- settings
+|   +-- onboarding
++-- train
+|   +-- login
+|   +-- settings
+|   +-- onboarding
++-- valid
+|   +-- login
+|   +-- settings
+|   +-- onboarding
+```
+Once this is done, we run the following
+```
+python cnn.py
+```
+It has two models inside it, one being a one 2D ConvNet layer while other being a VGG16 model trained on ImageNet dataset.
+Their architecture and performance is as below -
+ 1. Model 1
+ ```
+ Architecture 
+ 
+ Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_5 (Conv2D)            (None, 222, 222, 32)      896       
+_________________________________________________________________
+flatten_4 (Flatten)          (None, 1577088)           0         
+_________________________________________________________________
+dense_6 (Dense)              (None, 3)                 4731267   
+=================================================================
+Total params: 4,732,163
+Trainable params: 4,732,163
+Non-trainable params: 0
+_________________________________________________________________
+
+Performance 
+
+Epoch 1/5
+397s - loss: 10.7262 - acc: 0.3342 - val_loss: 9.8858 - val_acc: 0.3867
+Epoch 2/5
+308s - loss: 10.8468 - acc: 0.3269 - val_loss: 11.3901 - val_acc: 0.2933
+Epoch 3/5
+273s - loss: 10.7857 - acc: 0.3308 - val_loss: 10.1007 - val_acc: 0.3733
+Epoch 4/5
+273s - loss: 10.8126 - acc: 0.3292 - val_loss: 11.1752 - val_acc: 0.3067
+Epoch 5/5
+273s - loss: 10.6021 - acc: 0.3422 - val_loss: 11.0678 - val_acc: 0.3133
+```
+2. Model 2
+```
+Architecture
+
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_2 (InputLayer)         (None, 224, 224, 3)       0         
+_________________________________________________________________
+block1_conv1 (Conv2D)        (None, 224, 224, 64)      1792      
+_________________________________________________________________
+block1_conv2 (Conv2D)        (None, 224, 224, 64)      36928     
+_________________________________________________________________
+block1_pool (MaxPooling2D)   (None, 112, 112, 64)      0         
+_________________________________________________________________
+block2_conv1 (Conv2D)        (None, 112, 112, 128)     73856     
+_________________________________________________________________
+block2_conv2 (Conv2D)        (None, 112, 112, 128)     147584    
+_________________________________________________________________
+block2_pool (MaxPooling2D)   (None, 56, 56, 128)       0         
+_________________________________________________________________
+block3_conv1 (Conv2D)        (None, 56, 56, 256)       295168    
+_________________________________________________________________
+block3_conv2 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_conv3 (Conv2D)        (None, 56, 56, 256)       590080    
+_________________________________________________________________
+block3_pool (MaxPooling2D)   (None, 28, 28, 256)       0         
+_________________________________________________________________
+block4_conv1 (Conv2D)        (None, 28, 28, 512)       1180160   
+_________________________________________________________________
+block4_conv2 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_conv3 (Conv2D)        (None, 28, 28, 512)       2359808   
+_________________________________________________________________
+block4_pool (MaxPooling2D)   (None, 14, 14, 512)       0         
+_________________________________________________________________
+block5_conv1 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv2 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_conv3 (Conv2D)        (None, 14, 14, 512)       2359808   
+_________________________________________________________________
+block5_pool (MaxPooling2D)   (None, 7, 7, 512)         0         
+_________________________________________________________________
+flatten (Flatten)            (None, 25088)             0         
+_________________________________________________________________
+fc1 (Dense)                  (None, 4096)              102764544 
+_________________________________________________________________
+fc2 (Dense)                  (None, 4096)              16781312  
+_________________________________________________________________
+dense_5 (Dense)              (None, 3)                 3003      
+=================================================================
+Total params: 134,263,547
+Trainable params: 3,003
+Non-trainable params: 134,260,544
+_________________________________________________________________
+
+Performance
+
+Epoch 1/5
+3225s - loss: 1.0665 - acc: 0.5250 - val_loss: 1.0489 - val_acc: 0.5600
+Epoch 2/5
+2988s - loss: 1.0331 - acc: 0.5725 - val_loss: 1.0176 - val_acc: 0.5867
+Epoch 3/5
+3007s - loss: 1.0088 - acc: 0.5786 - val_loss: 0.9925 - val_acc: 0.6000
+Epoch 4/5
+2998s - loss: 0.9818 - acc: 0.5881 - val_loss: 0.9777 - val_acc: 0.5733
+Epoch 5/5
+3019s - loss: 0.9576 - acc: 0.5989 - val_loss: 0.9682 - val_acc: 0.5867
+```
+Model 2 clearly outperforms Model 1, however in model 2, currently none of the layers are trained at all, that is, taking the features learnt purely from ImageNet dataset, the performance is around 56% in worst case. Better performance can be achieved by freezing only the 2D ConvNet layers while training the Fully Connected layers with the new dataset. Some data augmentation is also to be done soon to expand the dataset.
 
 
