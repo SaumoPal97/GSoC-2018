@@ -1,5 +1,7 @@
 import pandas as pd
 from itertools import izip
+import shutil
+import os
 
 df = pd.read_csv('complete_activity_list.csv')
 login = list()
@@ -19,9 +21,7 @@ for a,f in izip(df.ActivityName, df.FileName):
         onboarding.append(f)
     elif any(s in a.lower() for s in settingslist):
         settings.append(f)
-        
-import shutil
-import os
+   
 train_number = 1200
 valid_number = train_number + 50
 test_number = valid_number + 9
