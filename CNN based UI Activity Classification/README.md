@@ -39,9 +39,9 @@ Now the number of instances for each of them will be calculated using the follow
 python activity_counter.py
 ```
 From here, we mainly go forward with three significant clusters for now, which are as follows -
- 1. Login
- 2. Onboarding
- 3. Settings
+ 1. Login 2521
+ 2. Onboarding 1259
+ 3. Settings 1588
  
 After this we run the following
 ```
@@ -59,9 +59,9 @@ screenshots
 |   +-- settings
 |   +-- onboarding
 +-- valid
-|   +-- login
-|   +-- settings
-|   +-- onboarding
+    +-- login
+    +-- settings
+    +-- onboarding
 ```
 Once this is done, we run the following
 ```
