@@ -59,9 +59,9 @@ screenshots
 |   +-- settings
 |   +-- onboarding
 +-- valid
-|   +-- login
-|   +-- settings
-|   +-- onboarding
+    +-- login
+    +-- settings
+    +-- onboarding
 ```
 Once this is done, we run the following
 ```
