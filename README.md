@@ -6,3 +6,4 @@ My schedule and progress in GSoC'18 can be found [here](https://saumopal97.githu
 Currently working on UI classification using -
 1. Text based methods for view classificaion
 2. CNN based method for activity classification
+3. Word-RNN based method for activity classification
