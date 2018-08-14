@@ -2,6 +2,7 @@ import tensorflow as tf
 from data_utils import *
 from sklearn.model_selection import train_test_split
 from word_rnn import WordRNN
+from attention_rnn import AttentionRNN
 
 NUM_CLASS = 3
 BATCH_SIZE = 64
@@ -17,6 +18,7 @@ train_x, valid_x, train_y, valid_y = train_test_split(x, y, test_size=0.15)
 
 with tf.Session() as sess:
     model = WordRNN(vocabulary_size, WORD_MAX_LEN, NUM_CLASS)
+    #model = AttentionRNN(vocabulary_size, WORD_MAX_LEN, NUM_CLASS)
 
     sess.run(tf.global_variables_initializer())
     saver = tf.train.Saver(tf.global_variables())
